@@ -1,15 +1,8 @@
-# Ignore secrets files
-secrets.tfvars
-
-# Ignore plan outputs
-*.tfplan
-
-# Ignore state backup files (if any)
-*.backup
-
-# Ignore Terraform local files
 .terraform/
-
-# Ignore sensitive outputs
 *.tfstate
 *.tfstate.*
+*.backup
+*.log
+crash.log
+*.tfvars
+*.plan
