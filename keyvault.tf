@@ -14,6 +14,7 @@ resource "azurerm_key_vault" "kv" {
     secret_permissions = ["Get"]
   }
 
+
   tags = {
     environment = "production"
   }
