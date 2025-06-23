@@ -5,4 +5,7 @@
 *.log
 crash.log
 *.tfvars
-*.plan
+*.plan.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
