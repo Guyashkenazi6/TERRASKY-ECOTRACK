@@ -60,8 +60,3 @@ resource "azurerm_monitor_diagnostic_setting" "storage_diagnostics" {
   }
   
 
-  # אם תרצה לוגים, בדוק את הקטגוריות המותרות ב-Azure Portal והוסף:
-  # enabled_log {
-  #   category = "StorageWrite"
-  # }
-}
